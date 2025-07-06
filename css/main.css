@@ -14,21 +14,29 @@
 */
 
 :root {
-    --primary-white-color:#FFFFFF
-    --primary-site-color:#2196F3
+    --primary-white-color: #FFFFFF;
+    --primary-site-color: #2196F3;
 
 
-    --primary-logo-color:#ffffff
-    --secondary-logo-color:#000000
+    --primary-logo-color: #ffffff;
+    --secondary-logo-color: #000000;
 
-    --primary-text-color:#212121
-    --secondary-text-color:#757575
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
     
-    --primary-bg-color:#F5F4FA
-    --secondary-bg-color:#2F303A
+    --primary-bg-color: #F5F4FA;
+    --secondary-bg-color: #2F303A;
+}
+
+body {
+    background: var(--primary-white-color);
 }
 
 ul {
     list-style: none;
 }
 
+.nav-button:hover,
+.nav-button:focus {
+    color: var(--primary-site-color);
+}
