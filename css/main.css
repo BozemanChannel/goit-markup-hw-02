@@ -1,0 +1,34 @@
+/* 
+    белый #FFFFFF
+    основной цвет сайта #2196F3
+
+    основной цвет логотипа #ffffff
+    вторичный цвет логотипа #000000
+
+    основной цвет текста #212121
+    вторичный цвет текста #757575
+
+    основной цвет фона #F5F4FA
+    вторичный цвет фона #2F303A
+
+*/
+
+:root {
+    --primary-white-color:#FFFFFF
+    --primary-site-color:#2196F3
+
+
+    --primary-logo-color:#ffffff
+    --secondary-logo-color:#000000
+
+    --primary-text-color:#212121
+    --secondary-text-color:#757575
+    
+    --primary-bg-color:#F5F4FA
+    --secondary-bg-color:#2F303A
+}
+
+ul {
+    list-style: none;
+}
+
